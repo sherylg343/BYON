@@ -1,0 +1,92 @@
+/* Atoms */
+/* Fonts */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/* Containters */
+
+
+
+/* Colors */
+
+
+
+/* Images */
+
+
+
+/* Buttons */
+
+
+/* Icons */
+
+
+/* Jumbotron */
+
+
+
+/* Headers */
+
+
+/* Molecules and Organisms */
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    margin-bottom: 0;
+    width: 100%;
+    border: 0;
+    font-weight: 400;
+    color: black;
+}
+
+.navbar-stick {
+    display: flex;
+    top: 0px;
+    left: 0px; 
+    position: sticky;
+    z-index: 999999;
+}
+
+.navlogo {
+    height: 80px;
+    width: 240px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.nav-link {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navbar .btn-secondary {
+    position: absolute;
+    top: 30px;
+    right: 20px; 
+    width: 80px;
+}
+
+.navbar .btn-danger {
+    position: absolute;
+    top: 30px;
+    right: 110px;
+    width: 120px;
+}
+
+
+
+.navbar .navbar-togger {
+    border: 0;
+}
+
+/* Text Blocks */
+
+
+/* Form */
+
+
+
+
