@@ -1,8 +1,13 @@
 /* Atoms */
 /* Fonts */
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.header-font (
+    font-family: 'Montserrat', sans-serif;
+)
+
 
 
 /* Containters */
@@ -14,17 +19,35 @@ body {
 
 
 /* Images */
-
+.callout .callout-image {
+    margin: 0px 0px;
+    padding: 0 0;
+    background-color: rgb(0,0,0,0.75);
+}
 
 
 /* Buttons */
-
+.callout .btn-danger {
+    margin: 25px;
+}
 
 /* Icons */
 
 
 /* Jumbotron */
+.callout-text .callout-header1 {
+    margin: 45px, 10px;
+    padding: 5px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.callout-text .callout-header2 {
+    margin: 30px, 10px;
+    padding: 5px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 /* Headers */
@@ -38,7 +61,6 @@ body {
     width: 100%;
     border: 0;
     font-weight: 400;
-    color: black;
 }
 
 .navbar-stick {
@@ -56,12 +78,12 @@ body {
     margin-left: 10px;
     margin-right: 40px;
 }
-
+/*
 .nav-link {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 180px;
 }
-
+*/
 .navbar .btn-secondary {
     position: absolute;
     top: 30px;
@@ -76,13 +98,21 @@ body {
     width: 120px;
 }
 
-
-
 .navbar .navbar-togger {
     border: 0;
 }
 
 /* Text Blocks */
+
+
+.callout-text {
+    background-color: rgb(0,0,0,0.75);
+    color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+    text-align: center;
+}
+
 
 
 /* Form */
