@@ -16,7 +16,7 @@ body {
 /* Images */
 .callout-image {
     background-image: url('../images/baseball-cover.jpg');
-    height: 500px;
+    height: 400px;
     margin: 0px 0px;
     padding: 0 0;
     background-attachment: fixed;
@@ -35,6 +35,10 @@ body {
 
 
 /* Jumbotron */
+.callout-text {
+    margin-bottom: 0px;
+}
+
 .callout-text .callout-header1 {
     padding-bottom: 5px;
     padding-left: 15px;
@@ -75,19 +79,23 @@ body {
     z-index: 999999;
 }
 
-.navlogo {
+.navbar .navlogo {
     height: 80px;
     width: 240px;
     margin-top: 0px;
     margin-left: 10px;
     margin-right: 40px;
 }
-/*
-.nav-link {
-    margin-left: 10px;
-    margin-right: 180px;
+
+.navbar-nav .mr-auto {
+    flex: 1;
+    margin: auto  !important;
+    display: flex;
+    justify-content: space-between;
 }
-*/
+
+
+/*
 .navbar .btn-secondary {
     position: absolute;
     top: 30px;
@@ -101,16 +109,67 @@ body {
     right: 110px;
     width: 120px;
 }
+*/
+
+.navbar .btn-danger {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+.navbar .btn-secondary {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 80px;
+}
 
 .navbar .navbar-togger {
     border: 0;
 }
 
+.services1 {
+    background-color: rgb(0,0,0);
+}
+
+.services1 .card-title {
+    border-bottom: 2px solid #FF3333;
+    padding-bottom: 4px;
+    height: 70px;
+}
+
+.services1 .card-header {
+    text-align: center;
+}
+
+.services1 i {
+    font-size: 30px;
+    line-height: 30px;
+    color: #FF3333;
+    border: none;
+}
+
+.services1 .card {
+    box-shadow: 10px 10px 8px #463B3B;
+    border: none;
+    color: #ffffff;
+    background-color: rgb(0,0,0,0.70);
+}
+
+.services1 .card-deck {
+    height: 100%;
+}
+
+.services1 .card-text {
+    padding-top: 4px;
+}
+
+
 /* Text Blocks */
 
 
 .callout-text {
-    background-color: rgb(0,0,0,0.70);
+    background-color: rgb(0,0,0,0.90);
     color: #ffffff;
     padding: 20px 20px 20px 20px;
     align-items: center;

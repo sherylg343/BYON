@@ -12,7 +12,7 @@
 </head>
 <body>
     <!--Nav-->
-    <nav class="navbar navbar-stick navbar-expand-sm navbar-light">
+    <nav class="navbar navbar-stick navbar-expand-md navbar-light">
         <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo.jpg" class="navlogo" alt="BuildYourOwnNewsletters"></img>
         </a>
@@ -34,18 +34,24 @@
                 <li class="nav-item nav-link">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="btn btn-danger" href="#" role="button">Try for Free</a>
+                <li class="nav-item d-md-none nav-link ">
+                    <a class="nav-link" href="#">Try for Free</a>
+                </li>
+                <li class="nav-item d-md-none nav-link">
+                    <a class="nav-link" href="#">Log In</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-secondary" href="#" role="button">Log In</a>
+                    <a class="btn btn-danger d-none d-md-block" href="#" role="button">Try for Free</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-secondary d-none d-md-block" href="#" role="button">Log In</a>
                 </li>
             </ul>
         </div>
     </nav>
     
     <!--Callout-->
-    <section class="container-fluid callout header-font">
+    <section class="container-fluid callout">
         <div class="row no-gutters">
             <div class="col-12 callout-image">
             </div>
@@ -57,6 +63,44 @@
                 with those critical to your team or organization's success.</h2>
                 <a class="btn btn-danger btn-lg" href="#" role="button">Try for Free</a>
             </div>
+    
+    <!-- Services-->
+    <section class="container-fluid services1 no-gutters">
+        <div class="row card-deck">
+            <div class="col-12 col-md-6 col-lg-4 mx-auto card my-4 mx-4 p-5">
+                <h5 class="card-header">   
+                    <i class="fas fa-bullhorn"></i>
+                </h5>  
+                <div class="card-body">  
+                    <h4 class="card-title text-center">Promote Your Team/Group</h4>
+                    <p class="card-text text-center">Publicize your victories and multiply the exposure
+                            through links to your social media accounts.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 card my-4 mx-4 p-5"> 
+                <h5 class="card-header">
+                    <i class="fas fa-link svc1-icon"></i>
+                </h5>
+                <div class="card-body">
+                    <h4 class="card-title text-center">Build Alliances</h4>
+                    <p class="card-text text-center">Seize the opportunity to share successes and 
+                        other relevant news that will reinforce your relationship with your
+                        community.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 card my-4 mx-4 p-5"> 
+                <h5 class="card-header">
+                    <i class="fas fa-seedling svc1-icon"></i>
+                </h5>
+                <div class="card-body">
+                    <h4 class="card-title text-center">Cultivate Donors/Partners</h4>
+                    <p class="card-text text-center">Bolster your community's feeling of partnership in 
+                        your mission by communicating without asking for money or time.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
         
 
 
