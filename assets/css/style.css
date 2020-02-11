@@ -14,6 +14,10 @@ body {
     font-size: 18px;
 }
 
+.header-red {
+    color: #FF3333;
+}
+
 /* Containters */
 
 
@@ -140,8 +144,6 @@ body {
     text-align: center;
 }
 
-
-
 .services1 .card {
     box-shadow: 10px 10px 8px #463B3B;
     border: none;
@@ -162,6 +164,13 @@ body {
     color: rgb(0,0,0);
 }
 
+.services3 {
+    background-color: #A8A8A8; 
+}
+
+.services3 img {
+    height: 60%;
+}
 
 
 /* Text Blocks */
