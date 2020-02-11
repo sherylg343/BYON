@@ -4,7 +4,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.header-body {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
 
+.services2 p {
+    font-size: 18px;
+}
 
 /* Containters */
 
@@ -27,12 +35,32 @@ body {
 
 
 /* Buttons */
-.callout .btn-danger {
-    margin: 10px;
+.btn-try {
+    background-color: #FF3333;
+    color: #ffffff;
+    width: 120px;
+}
+
+.btn-login {
+    background-color: #A8A8A8;
+    color: #ffffff;
+    width: 80px;
 }
 
 /* Icons */
+.services1 i {
+    font-size: 30px;
+    line-height: 30px;
+    color: #FF3333;
+    border: none;
+}
 
+.services2 i {
+   font-size: 18px;
+    line-height: 18px;
+    color: #FF3333;
+    border: none; 
+}
 
 /* Jumbotron */
 .callout-text {
@@ -80,8 +108,8 @@ body {
 }
 
 .navbar .navlogo {
-    height: 80px;
-    width: 240px;
+    height: 70px;
+    width: 210px;
     margin-top: 0px;
     margin-left: 10px;
     margin-right: 40px;
@@ -92,36 +120,6 @@ body {
     margin: auto  !important;
     display: flex;
     justify-content: space-between;
-}
-
-
-/*
-.navbar .btn-secondary {
-    position: absolute;
-    top: 30px;
-    right: 20px; 
-    width: 80px;
-}
-
-.navbar .btn-danger {
-    position: absolute;
-    top: 30px;
-    right: 110px;
-    width: 120px;
-}
-*/
-
-.navbar .btn-danger {
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 120px;
-}
-
-.navbar .btn-secondary {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    width: 80px;
 }
 
 .navbar .navbar-togger {
@@ -142,12 +140,7 @@ body {
     text-align: center;
 }
 
-.services1 i {
-    font-size: 30px;
-    line-height: 30px;
-    color: #FF3333;
-    border: none;
-}
+
 
 .services1 .card {
     box-shadow: 10px 10px 8px #463B3B;
@@ -163,6 +156,12 @@ body {
 .services1 .card-text {
     padding-top: 4px;
 }
+
+.services2 {
+    background-color: #ffffff;
+    color: rgb(0,0,0);
+}
+
 
 
 /* Text Blocks */
