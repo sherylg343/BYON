@@ -77,9 +77,9 @@ body {
 
 .callout-text .callout-header2 {
     padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 10em;
+    padding-right: 10em;
     font-weight: 100;
     font-family: 'Open Sans light', sans-serif;
     line-height: 1.5;
