@@ -18,6 +18,13 @@ body {
     color: #FF3333;
 }
 
+.services4 p {
+    font-style: italic;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(0,0,0);
+}
+
 /* Containters */
 
 
@@ -59,12 +66,15 @@ body {
     border: none;
 }
 
-.services2 i {
+.services2,.services4 i {
    font-size: 18px;
     line-height: 18px;
     color: #FF3333;
     border: none; 
 }
+
+
+
 
 /* Jumbotron */
 .callout-text {
@@ -88,6 +98,7 @@ body {
     font-family: 'Open Sans light', sans-serif;
     line-height: 1.5;
 }
+
 
 
 /* Headers */
@@ -172,6 +183,14 @@ body {
     height: 60%;
 }
 
+.services4 {
+    background-color: #ffffff;
+}
+
+.customers {
+    background-color: #ffffff;
+
+}
 
 /* Text Blocks */
 
@@ -182,6 +201,62 @@ body {
     padding: 20px 20px 20px 20px;
     align-items: center;
     text-align: center;
+}
+
+/* Blockquote */
+
+.blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 24px;
+    font-weight: 700px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  
+  content:"\f10d";
+  font-size: 200px;
+  color: rgba(0,0,0,0.1);
+   
+}
+
+/*.blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    border-bottom: 3px solid #bf0024;
+    height: 3px;
+    width: 200px;
+}*/
+
+.cust-name p {
+    text-align: left;
+    font-size: 16px;
+    color: rgb(0,0,0);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+.cust1 p {
+    margin-left: 100px;
+}
+
+.cust2 p {
+    margin-left: 270px;
+    margin-right: 0px;
 }
 
 
