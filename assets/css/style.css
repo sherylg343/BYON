@@ -29,6 +29,10 @@ body {
     color: #ffffff;
 }
 
+.form-font-color {
+    color: #ffffff;
+}
+
 /* Containers */
 
 
@@ -45,8 +49,6 @@ body {
 .services3 {
     background-color: #A8A8A8; 
 }
-
-
 
 .services4 {
     background-color: #ffffff;
@@ -113,15 +115,6 @@ body {
     border: none;
 }
 
-.services2,.services4 i {
-   font-size: 18px;
-    line-height: 18px;
-    color: #FF3333;
-    border: none; 
-}
-
-
-
 
 /* Jumbotron */
 .callout-text {
@@ -144,6 +137,10 @@ body {
     font-weight: 100;
     font-family: 'Open Sans light', sans-serif;
     line-height: 1.5;
+}
+/* Inputs */
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+    background-color: #FF3333;
 }
 
 
