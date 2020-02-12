@@ -25,11 +25,41 @@ body {
     color: rgb(0,0,0);
 }
 
-/* Containters */
+.contact-sub {
+    color: #ffffff;
+}
+
+/* Containers */
 
 
 /* Colors */
+.services1 {
+    background-color: rgb(0,0,0);
+}
 
+.services2 {
+    background-color: #ffffff;
+    color: rgb(0,0,0);
+}
+
+.services3 {
+    background-color: #A8A8A8; 
+}
+
+
+
+.services4 {
+    background-color: #ffffff;
+}
+
+.customers {
+    background-color: #ffffff;
+
+}
+
+.contact {
+    background-color: rgb(0,0,0);
+}
 
 
 /* Images */
@@ -49,6 +79,18 @@ body {
     height: 70px;
 }
 
+.contact img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+
+.services3 img {
+    height: 60%;
+}
 
 /* Buttons */
 .btn-try {
@@ -146,9 +188,7 @@ body {
     border: 0;
 }
 
-.services1 {
-    background-color: rgb(0,0,0);
-}
+
 
 .services1 .card-title {
     border-bottom: 2px solid #FF3333;
@@ -175,27 +215,7 @@ body {
     padding-top: 4px;
 }
 
-.services2 {
-    background-color: #ffffff;
-    color: rgb(0,0,0);
-}
 
-.services3 {
-    background-color: #A8A8A8; 
-}
-
-.services3 img {
-    height: 60%;
-}
-
-.services4 {
-    background-color: #ffffff;
-}
-
-.customers {
-    background-color: #ffffff;
-
-}
 
 /* Text Blocks */
 
