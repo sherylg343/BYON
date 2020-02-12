@@ -44,6 +44,11 @@ body {
     background-size: cover;
 }
 
+.about img {
+    width: 210px;
+    height: 70px;
+}
+
 
 /* Buttons */
 .btn-try {
