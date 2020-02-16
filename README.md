@@ -87,6 +87,107 @@ the client, and revised based on our discussion. The mockups were developed usin
 <img src=""></img>
 </div>
 
+During creation, the following changes were made to improve the design originally created
+with the WireFrames.
+
+*1 - Callout Section: The image selected by the client is horizontal and did not look good
+when applied to only half of the screen. The design was revised so that it became a hero image at
+100% width with the headlines following below the image.
+*2 - Services1: No change to original design
+*3 - Services2: No change to original design
+*4 - Services3: To best preserve resolution and length of newsletter samples, reduced number of 
+samples to one for mobile and two across for tablets and larger.
+*5 - Services4: Removed buttons from service descriptions due to proximity of Contact form.
+*6 - Customers: Reduced number of quotes to one for mobile and removed styling so easier to view.
+For tablet and larger sizes, reduced number of quotes to two, again to ease readability.
+*7 - Contact: Combined the closing icon and headline with the Contact form to improve ease of 
+reading. Also changed form format to stacked versus horizontal to improve ease of use in all formats. 
+
+
 ---
 
 ##Features
+
+### Callout
+
+Eye-catching photo with headline and sub-header describing unique selling proposition and
+offering opportunity fora free trial.
+
+### Services
+
+There are four parts to this section that describe:
+
+*1 - the benefits of newsletter communications
+*2 - details of the newsletter Services
+*3 - display two sample newsletters
+*4 - two available service options
+
+### Customerss
+
+Quotes from 1 or 2 customers about the service and benefits of using it.
+
+### About
+
+Descritipion of the owner, his background (to build credibility), and how
+service was originally developed. Includes a direct email link.
+
+### Contact
+
+Reaffirms benefit of the newsletter service with headline and icon, and provides
+a contact form with option to specify which one (or both) service(s) are of interest.
+
+---
+
+## Future Goals
+
+### Tutorial Video
+
+Client would like to include a video of a user creating a newsletter with his service
+to demonstrate ease of use - and affirm benefit claims.
+
+### Newsletter Gallery
+
+Client would like to select more samples to have available for viewing on a separate 
+gallery page.
+
+
+### Blog or Resources Posted
+
+Client is considering establishing a blog or list of resources to provide tips and suggestions
+regarding development of successful newsletters.
+
+---
+
+## Technology Used
+
+* HTML & CSS programming languages
+* [Bootstrap] (https://getbootstrap.com/) - used to help make the website designed for mobile-first and responsive
+to all screen sizes
+* [Google Fonts] (https://fonts.google.com/) - Exo and Open Sans Font Styles
+* [Font Awesome] (https://fontawesome.com/) - Design icons for Services 1 page and social media icons
+* [jQuery] (https://code.jquery.com/jquery-3.4.1.slim.min.js) - Javascript needed for Navbar
+* [Popper] (https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js) - Javascrpt needed for Navbar
+* [VSCode] (https://code.visualstudio.com/) - IDE for local development
+* [GIT] (https://git-scm.com/) - Version Control
+* [GITHUB] (https://github.com) - to host the repositories for this project and the live website preview
+
+---
+
+## Testing
+
+Throughout development of the site, Chrome's Developer Tools were used to identify errors and ensure the site was
+responsive on each of the five primary screen sizes.
+
+Additionally, I used the following tools to identify and resolve issues in the HTML and CSS codes.
+
+- [FREEFORMATTER.COM HTML Validator/Linter] (https://www.freeformatter.com/html-validator.html) Used to validate HTML.
+
+- [The W3C CSS Validation Service] (https://jigsaw.w3.org/css-validator/validator) Used to validate CSS.
+
+- [Lighthouse Chrome] 
+(https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) Used to audit best
+security practices and reduce loading times.
+
+### Issues and Resolutions
+
+
