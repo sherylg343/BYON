@@ -46,21 +46,14 @@ body {
     color: rgb(0,0,0);
    }
 
-@media (min-width: 768px){
-    .services2 {
-    background-color: #ffffff;
-    color: rgb(0,0,0);
-    min-height: 100vh;
-    }
-}
-
 .services3 {
     background-color: #A8A8A8; 
 }
 
-.services4 {
+.services4a {
     background-color: #ffffff;
 }
+
 
 .customers {
     background-color: #ffffff;
@@ -70,16 +63,10 @@ body {
     background-color: #ffffff;
 }
 
-@media (min-width: 768px){
-    .about {
-        background-color: #ffffff;
-        min-height: 100vh;
-    }
-
-
 .contact {
     background-color: rgb(0,0,0);
 }
+
 
 
 /* Images */
@@ -96,8 +83,8 @@ body {
 }
 
 .contact img {
-    width: 15px;
-    height: 15px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border-style: solid;
     border-width: 1px;
@@ -195,16 +182,16 @@ body {
     z-index: 999999;
 }
 
-.navbar-brand img {
-    max-width: 30vh;
-    height: auto;
+.navlogo img {
+    width: 90px;
+    height: 30px;
     margin-top: 0px;
     margin-left: 4px;
     margin-right: 10px;
 }
 
 @media (min-width: 768px){ 
-    .navbar-brand img {
+    .navlogo img {
         height: 70px;
         width: 210px;
         margin-top: 0px;
@@ -287,43 +274,37 @@ body {
 }
 
 /* Blockquote */
-
-.blockquote {
-    padding: 60px 80px 40px;
-    position: relative;
-}
-.blockquote p {
-    font-family: "Utopia-italic";
-    font-size: 24px;
-    font-weight: 700px;
-    text-align: center;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 25px;
-    padding-left: 50px;
+@media (min-width: 768px) {
+    .blockquote {
+        padding: 60px 80px 40px;
+        position: relative;
+    }
 }
 
-.blockquote:before {
-  position: absolute;
-  font-family: 'FontAwesome';
-  top: 0;
-  
-  content:"\f10d";
-  font-size: 200px;
-  color: rgba(0,0,0,0.1);
-   
+@media (min-width: 768px) {
+    .blockquote p {
+        font-family: "Utopia-italic";
+        font-size: 24px;
+        font-weight: 700px;
+        text-align: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
 }
 
-/*.blockquote::after {
-    content: "";
-    top: 20px;
-    left: 50%;
-    margin-left: -100px;
+@media (min-width: 768px) {
+    .blockquote:before {
     position: absolute;
-    border-bottom: 3px solid #bf0024;
-    height: 3px;
-    width: 200px;
-}*/
+    font-family: 'FontAwesome';
+    top: 0;
+    content:"\f10d";
+    font-size: 200px;
+    color: rgba(0,0,0,0.1);
+    }
+}
+
 
 .cust-name p {
     text-align: left;
