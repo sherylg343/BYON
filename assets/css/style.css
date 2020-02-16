@@ -285,7 +285,7 @@ body {
     .blockquote p {
         font-family: "Utopia-italic";
         font-size: 24px;
-        font-weight: 700px;
+        font-weight: 700;
         text-align: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
@@ -314,7 +314,11 @@ body {
     margin-bottom: 0;
 }
 
-
+#contact {
+    padding-top: 40px;
+    margin-top: -40px;
+    display: inline-block; /* required for webkit browsers */
+}
 
 /* Form */
 
