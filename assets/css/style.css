@@ -320,6 +320,33 @@ body {
     margin-bottom: 0;
 }
 
+/* Form*/
+ .contactform .btn-try {
+     text-align: center;
+ }
+
+@media (min-width: 768px) {
+    .form-control {
+        width: 70%; 
+    }
+}
+
+@media (min-width: 768px) {
+    .contactform {
+        margin-left: 30%;
+        margin-right: 25%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contactform .btn-try {
+        margin-left: 25%;
+        margin-top: 15px;
+    }
+}
+
+
+
 /* Footer */
 
 #footer-details {
