@@ -9,7 +9,7 @@ body {
     font-weight: bold;
 }
 
-.services2 p {
+#services2 p {
     font-size: 18px;
 }
 
@@ -17,7 +17,7 @@ body {
     color: #FF3333;
 }
 
-.services4 p {
+#services4b p {
     font-style: italic;
     font-size: 18px;
     text-align: left;
@@ -32,39 +32,47 @@ body {
     color: #ffffff;
 }
 
+.footer-text {
+    font-size: 10px;
+    color: #ffffff;
+    padding-top: 20px;
+}
 
 /* Colors */
-.services1a {
+#services1a {
     background-color: rgb(0,0,0);
 }
 
-.services2 {
+#services2 {
     background-color: #ffffff;
     color: rgb(0,0,0);
    }
 
-.services3 {
+#services3 {
     background-color: #A8A8A8; 
 }
 
-.services4a {
+#services4a {
     background-color: #ffffff;
 }
 
 
-.customers {
+#customers {
     background-color: #ffffff;
 }
 
-.about {
+#about {
     background-color: #ffffff;
 }
 
-.contact {
+#contact {
     background-color: rgb(0,0,0);
 }
 
-
+/*Containers*/
+section {
+    padding-top: 100px;
+}
 
 /* Images */
 .callout-image {
@@ -99,7 +107,7 @@ body {
     }
 }
 
-.services3 img {
+#services3 img {
     height: 60%;
 }
 
@@ -118,30 +126,37 @@ body {
 
 
 /* Icons */
-.services1b i {
+#services1b i {
     font-size: 30px;
     line-height: 30px;
     color: #FF3333;
     border: none;
 }
 
-.services2 i {
+#services2 i {
     color: #FF3333;
     font-size: 20px;
 }
 
 .social-links li a i {
-    font-size: 50px; 
-    line-height: 50px;
+    font-size: 40px; 
+    line-height: 40px;
     color: rgb(0,0,0);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    padding-top: 10px;
+    margin-left: 10px;
 }
 
 .social-links li a i:hover {
     background:  #FF3333;
+}
+
+.footer-text i {
+    font-size: 6px;
+    color: #ffffff;
 }
 
 /* Jumbotron */
@@ -221,18 +236,18 @@ body {
 }
 
 /* Services1 */
-.services1b .card-title {
+#services1b .card-title {
     border-bottom: 2px solid #FF3333;
     padding-bottom: 4px;
     height: 70px;
 }
 
-.services1b .card-header {
+#services1b .card-header {
     text-align: center;
     padding-top: 15%;
 }
 
-.services1b .card {
+#services1b .card {
     box-shadow: 10px 10px 8px #463B3B;
     border: none;
     color: #ffffff;
@@ -244,11 +259,11 @@ body {
     margin-right: 7px;
 }
 
-.services1b .card-text {
+#services1b .card-text {
     padding-top: 4px;
 }
 
-.services4b .card {
+#services4b .card {
     box-shadow: 10px 10px 8px #FF3333;
     border: none;
     color: rgb(0,0,0);
@@ -259,11 +274,11 @@ body {
     margin-right: 7px;
 }
 
-.services4b .card-text {
+#services4b .card-text {
     padding-top: 4px;
 }
 
-.services4b .card-title {
+#services4b .card-title {
     border-bottom: 2px solid #FF3333;
     padding-bottom: 4px;
     height: 70px;
@@ -273,14 +288,15 @@ body {
 /* Text Blocks */
 
 .callout-text {
-    background-color: rgb(0,0,0,0.90);
+    background: rgb(0,0,0,0,5);
     color: #ffffff;
     padding: 20px 20px 20px 20px;
     align-items: center;
     text-align: center;
 }
 
-/* Blockquote */
+/* Blockquote 
+Code from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
 @media (min-width: 768px) {
     .blockquote {
         padding: 60px 80px 40px;
