@@ -59,13 +59,14 @@ section {
 }
 
 #services4a {
-    background-color: #ffffff;
-    padding:25%;
+    background-color:#ffffff;
+    padding: 25%;
 }
 
 
 #customers {
-    background-color: #ffffff;
+    background-color: rgba(168,168,168,0.3);
+    padding-bottom: 15%;
 }
 
 #about {
@@ -165,16 +166,19 @@ section {
 
 /* Jumbotron */
 .jumbotron {
-    background: rgba(255,255,255,0.2) ;
+    background: rgba(255,255,255,0.2);
+    background-size: cover;
+    margin-bottom: -5px;
+   
 }
 
 #callout-text {
     padding: 20px 20px 20px 20px;
     align-items: center;
     text-align: center;
-    margin: 0px;
     display: flex;
     justify-content: end;
+    margin: -15px;
 }
 
 #callout-header1 {
