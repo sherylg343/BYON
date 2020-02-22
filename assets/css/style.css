@@ -38,14 +38,20 @@ body {
     padding-top: 20px;
 }
 
-/* Colors */
+/*Containers*/
+section {
+    padding-top: 100px;
+}
+
 #services1a {
     background-color: rgb(0,0,0);
+    padding-bottom: 15%;
 }
 
 #services2 {
     background-color: #ffffff;
     color: rgb(0,0,0);
+    padding-bottom: 15%;
    }
 
 #services3 {
@@ -54,6 +60,7 @@ body {
 
 #services4a {
     background-color: #ffffff;
+    padding:25%;
 }
 
 
@@ -63,15 +70,11 @@ body {
 
 #about {
     background-color: #ffffff;
+    padding:15%;
 }
 
 #contact {
     background-color: rgb(0,0,0);
-}
-
-/*Containers*/
-section {
-    padding-top: 100px;
 }
 
 #callout {
