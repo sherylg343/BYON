@@ -60,8 +60,8 @@ section {
 
 #services4a {
     background-color:#ffffff;
+    padding-bottom: 20%;
 }
-
 
 
 #customers {
@@ -79,7 +79,7 @@ section {
 }
 
 #callout {
-  background-image: url('../images/baseball-cover2.jpg');
+    background-image: url('../images/baseball-cover2.jpg');
     width: 100%;
     height: auto;
     margin: 0px 0px;
@@ -112,10 +112,7 @@ section {
     }
 }
 
-#services3 img {
- 
-}
-
+             
 /* Buttons */
 .btn-try {
     background-color: #FF3333;
@@ -143,7 +140,7 @@ section {
     font-size: 20px;
 }
 
-.social-links li a i {
+.social-links a i {
     font-size: 40px; 
     line-height: 40px;
     color: rgb(0,0,0);
@@ -155,7 +152,19 @@ section {
     margin-left: 10px;
 }
 
-.social-links li a i:hover {
+@media (min-width: 768px){ 
+    .social-links a i {
+        padding-left: 10rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .social-links a i {
+        padding-left: 0rem;
+    }
+}
+
+.social-links a i:hover {
     background:  #FF3333;
 }
 
@@ -307,10 +316,8 @@ section {
 
 /* Text Blocks */
 
-
-
 /* Blockquote 
-Code from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
+Code taken from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
 @media (min-width: 768px) {
     .blockquote {
         padding: 60px 80px 40px;
@@ -351,36 +358,13 @@ Code from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
 }
 
 /* Form*/
- .contactform .btn-try {
-     text-align: center;
- }
-
-@media (min-width: 768px) {
-    .form-control {
-        width: 70%; 
-    }
-}
-
-@media (min-width: 768px) {
-    .contactform {
-        margin-left: 30%;
-        margin-right: 25%;
-    }
-}
-
-@media (min-width: 768px) {
-    .contactform .btn-try {
-        margin-left: 25%;
-        margin-top: 15px;
-    }
-}
 
 
 
 /* Footer */
 
 #footer-details {
-    padding: 20px;
+    padding: 15%;
     background-color: #A8A8A8; 
 }
 
