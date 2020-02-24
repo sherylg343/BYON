@@ -221,17 +221,20 @@ dilemmas
 
 1. Sticky Navbar covering headlines when clicking navbar links: I tried adjusting top
 margins but after discussing with mentor, saw that the navbar height of 96px could be
-compensated for with a top padding of 100px on all sections.
+compensated for with a top padding of 100px on all sections. Confirmed resolution by 
+viewing deployed web page and testing links.
 
-2. I had a width scroll bar. Found it was caused by a row in the Customer page caused 
-by having row columns that added up to >12. Fixed the column and offset widths so they
-equaled 12 and scroll bar disappeared.
+2. I had a width scroll bar appearing in deployed web page. I found it was the result of
+a an extended row in the Customer page caused by having row columns that added up 
+to >12. I fixed the column and offset widths so they equaled 12 and scroll bar disappeared.
 
-3. At mentor's suggestion, I reviewed classes and any that were not repeated, changed
-those to id's.
+3. At mentor's suggestion, I reviewed classes and any that were not used more than once
+were changed to id's.
 
 4. Based on Lighthouse report, I compressed images and replaced origianal images with
 compressed images.
+
+5. 
 
 ### Issues and Resolutions
 

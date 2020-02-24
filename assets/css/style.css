@@ -1,3 +1,4 @@
+
 /* Fonts & Headers */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -374,5 +375,42 @@ Code taken from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
 
 
 
+/* Images - Get Inspired */
+#sample-image1-mobile {
+    display: block;
+    background-position: center top;
+    padding-bottom: 5rem;
+}
 
+#sample-image1 {
+    display: none;
+}
 
+@media only screen and (min-width: 992px){
+    #sample-image1 {
+        display: block;
+        background-position: center top;
+    }
+    #sample-image1-mobile {
+        display: none;
+}
+
+#sample-image2-mobile {
+    display: block;
+    background-position: center top;
+    padding-bottom: 5rem;
+}
+
+#sample-image2 {
+    display: none;
+}
+
+@media only screen and (min-width: 992px){
+    #sample-image2 {
+        display: block;
+        background-position: center top;
+    }
+    #sample-image2-mobile {
+        display: none;
+    }
+}
