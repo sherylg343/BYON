@@ -217,7 +217,9 @@ regarding margins, padding and alignment throughout design process
 * [stackoverflow](https://stackoverflow.com) - used many times to find answers to coding
 dilemmas
 
-##Final Testing Issues and Resolutions
+### Issues and Resolutions
+
+Below are the final issues that required resolution before completing the project.
 
 1. Sticky Navbar covering headlines when clicking navbar links: I tried adjusting top
 margins but after discussing with mentor, saw that the navbar height of 96px could be
@@ -234,8 +236,40 @@ were changed to id's.
 4. Based on Lighthouse report, I compressed images and replaced origianal images with
 compressed images.
 
-5. 
+5. I ran Autoprefixer on the CSS code and found 5 changes. I implemented the changes and
+lost much of the styling in those sections: navbar and the cards in services1 and services4.
+Therefore, I removed the autoprefixer code and am acknowledging that those sections have 
+issues with other browsers that I cannot resolve.
 
-### Issues and Resolutions
+6. To move the Callout/Jumbotron text higher in browser window I tried a transparent 
+background. To do this, I moved the hero image out of a row and made it the background image. 
+Then I kept the Callout text in a row and made the Jumbotron background transparent 
+(as Bootstrap default is white). Comments from the client and the Lighthouse report 
+indicated that the text was not readable enough with the transparent background, so it was 
+changed to a light gray.
+
+7. The form on the Contact page was not centering in screen sizes larger than mobile. 
+After experimenting with margins and padding I researched the issue. On stackoverflow 
+I found an idea to put the form in a container with a Bootstrap class of d-flex and then 
+used center spacing utility classes for the container to align the form elements on the page. 
 
 
+8. The newsletter sample issues were distorted in smaller screen sizes. I remembered that
+the newsletters are mobile responsive, so I took screen shots of the mobile versions (and
+compressed them). I then searched slackoverflow on how to swap the images. I found a
+suggestion but my implementation was incorrect. Mark OBeirne on Slack helped me sort it out.
+It did not work to place all the code in CSS as it was not accepting the images as
+background-images within columns. So I put the images in the html and first tried the d-none
+and d-md-block class codes to control which one displayed. This did not work, so I tried
+the same code in CSS. It is working for the first newsletter sample, and for both in
+large screens, but doesn't work for the second sample in medium and smaller screens. If
+I can't correct it, I will revert to only using the mobile version.
+
+###Known Issues
+
+1. Some of the styling does not appear in all browsers - see #5 above.
+
+2. The cover image does not appear when the website is loaded on an iPhone. It works
+when viewing it in Developer Tools as iPhone, but not on actual phone.
+
+3. Newsletter samples - TBD, see #8.

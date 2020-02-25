@@ -79,16 +79,40 @@ section {
     background-color: rgb(0,0,0);
 }
 
-#callout {
+.callout {
     background-image: url('../images/baseball-cover2.jpg');
     width: 100%;
-    height: auto;
+    height: 100vh;
     margin: 0px 0px;
     padding: 0 0;
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;  
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.callout .card {
+    background-color: rgba(192,192,192,0.9);
+}
+
+.callout .card-title {
+    font-weight: 600;
+}
+
+.callout .card-subtitle {
+    font-weight: 600;
+}
+
+@media (min-width: 992px){
+    .callout .card-subtitle {
+       padding-left: 10rem;
+        padding-right: 10rem;
+        padding-bottom: 1rem; 
+    }
 }
 
 
@@ -111,6 +135,31 @@ section {
         border-width: 1px;
         border-color: #ffffff;
     }
+}
+
+/* Images - Get Inspired */
+#sample-image1-mobile {
+    display: block;
+    background-position: center top;
+    padding-bottom: 5rem;
+}
+
+#sample-image1 {
+    display: none;
+}
+
+@media only screen and (min-width: 992px){
+    #sample-image1 {
+        display: block;
+        background-position: center top;
+    }
+    #sample-image1-mobile {
+        display: none;
+}
+
+#sample-image2 {
+    display: block;
+    background-position: center top;
 }
 
              
@@ -174,44 +223,7 @@ section {
     color: #ffffff;
 }
 
-/* Jumbotron */
-.jumbotron {
-    background: rgba(255,255,255,0.2);
-    background-size: cover;
-    margin-bottom: -5px;
-   
-}
-
-#callout-text {
-    padding: 20px 20px 20px 20px;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    justify-content: end;
-    margin: -15px;
-}
-
-#callout-header1 {
-    padding-top: 40vh;
-    color: #FF3333;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px; 
-    font-weight: 600;
-    font-family: 'Exo', sans-serif;
-}
-
-#callout-header2 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20%;
-    padding-right: 20%;
-    font-weight: 700;
-    color: black;
-    font-family: 'Open Sans light', sans-serif;
-    line-height: 1.5;
-}
-
+/
 
 /* Inputs */
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after{
@@ -236,7 +248,8 @@ section {
     z-index: 999999;
 }
 
-.navlogo img {
+
+.navbar a img {
     width: 90px;
     height: 30px;
     margin-top: 0px;
@@ -245,7 +258,7 @@ section {
 }
 
 @media (min-width: 768px){ 
-    .navlogo img {
+    .navbar a img {
         height: 70px;
         width: 210px;
         margin-top: 0px;
@@ -261,7 +274,7 @@ section {
     justify-content: space-between;
 }
 
-.navbar .navbar-togger {
+.navbar .navbar-toggler {
     border: 0;
 }
 
@@ -375,42 +388,3 @@ Code taken from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
 
 
 
-/* Images - Get Inspired */
-#sample-image1-mobile {
-    display: block;
-    background-position: center top;
-    padding-bottom: 5rem;
-}
-
-#sample-image1 {
-    display: none;
-}
-
-@media only screen and (min-width: 992px){
-    #sample-image1 {
-        display: block;
-        background-position: center top;
-    }
-    #sample-image1-mobile {
-        display: none;
-}
-
-#sample-image2-mobile {
-    display: block;
-    background-position: center top;
-    padding-bottom: 5rem;
-}
-
-#sample-image2 {
-    display: none;
-}
-
-@media only screen and (min-width: 992px){
-    #sample-image2 {
-        display: block;
-        background-position: center top;
-    }
-    #sample-image2-mobile {
-        display: none;
-    }
-}
