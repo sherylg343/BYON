@@ -14,8 +14,8 @@
 <body>
 
  <!--Nav-->
-    <nav class="navbar navbar-stick navbar-expand-md navbar-light">
-        <a class="navbar-brand" href="index.html"></a>
+    <nav class="navbar navbar-stick navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo.jpg" alt="BuildYourOwnNewsletters" id="navlogo">
         </a>
         <button class="navbar-toggler float-xs-right" type="button" data-toggle="collapse" 
@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#services1a">Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#customers">Customers</a>
@@ -38,16 +38,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item d-md-none">
-                    <a class="nav-link" href="#">Try for Free</a>
+                <li class="nav-item d-lg-none">
+                    <a class="nav-link" href="#contact">Try for Free</a>
                 </li>
-                <li class="nav-item d-md-none">
+                <li class="nav-item d-lg-none">
                     <a class="nav-link" href="https://buildyourownnewsletters.com/user">Log In</a>
                 </li>
             </ul>
             <!--Nav Callout Buttons-->
-            <a class="btn btn-block btn-sm btn-try mr-3 mt-2 my-lg-n2" href="#contact">Try for Free</a>
-            <a class="btn btn-block btn-sm btn-login mt-2 mr-4 my-lg-n2" href="#">Log In</a>
+            <a class="btn btn-block btn-sm btn-try d-none d-lg-block mr-lg-3 mt-lg-2 my-lg-n2" 
+            href="#contact">Try for Free</a>
+            <a class="btn btn-block btn-sm btn-login d-none d-lg-block mt-lg-2 mr-lg-4 my-lg-n2" 
+            href="https://buildyourownnewsletters.com/user">Log In</a>
         </div>
     </nav>
     
@@ -153,9 +155,9 @@
         <div class="row h-100 align-items-center align-top pb-5 ml-0 mr-0">
             <div class="col-12 col-md-10 col-lg-5 mx-auto">
                 <img src="assets/images/widener-mobile.png" class="img-fluid
-                mx-auto" alt="Widener Newsletter" id="sample-image1-mobile">
+                d-block mx-auto" alt="Widener Newsletter" id="sample-image1-mobile">
                 <img src="assets/images/widener-football.png" class="img-fluid pb-3 
-                pr-lg-4 mx-auto" alt="Widener Newsletter" id="sample-image1">
+                d-block pr-lg-4 mx-auto" alt="Widener Newsletter" id="sample-image1">
             </div>
             <div class="col-12 col-md-10 col-lg-5 mx-auto">
                 <img src="assets/images/small-college-mobile.png" class="img-fluid
@@ -282,52 +284,53 @@
             </div>
         </div>
         <div class="d-flex justify-content-center align-items-center container">
-        <form class="form-font-color contactform">
-            <div class="form-group ml-5 mr-5">
-                <label for="inputName">Full Name</label>
-                <input type="text" class="form-control" id="inputName">
-            </div>
-            <div class="form-group ml-5 mr-5">
-                <label for="inputOrg">School/Organization</label>
-                <input type="text" class="form-control" id="inputOrg">
-            </div>
-            <div class="form-group ml-5 mr-5">
-                <label for="inputTitle">Job Title</label>
-                <input type="text" class="form-control" id="inputTitle">
-            </div>
-            <div class="form-group ml-5 mr-5">
-                <label for="inputEmail">Email</label>
-                <input type="email" class="form-control" id="inputEmail">
-            </div>
-            <div class="form-group row ml-4 mr-1">
-                <div class="col-12 text-left">I'm interested in:</div>
-            </div>
-            <div class="form-group row ml-4">
-                <div class="col-12">
-                    <div class="form-check custom-checkbox">
-                        <input class="form-check-input custom-control-input" type="checkbox" id="Check1"> 
-                        <label class="form-check-label custom-control-label" for="Check1">
-                        Do-it-myself newsletter with free trial
-                        </label>
-                    </div>
-                </div>               
-            </div>
-            <div class="form-group row ml-4 mr-1">
-                <div class="col-12">
-                    <div class="form-check custom-checkbox">
-                        <input class="form-check-input custom-control-input" type="checkbox" id="Check2">
-                        <label class="form-check-label custom-control-label" for="Check2">
-                        You create my newsletter, contact me about custom quote
-                        </label>
+            <form class="form-font-color contactform">
+                <div class="form-group ml-5 mr-5">
+                    <label for="validationDefault01">Full Name</label>
+                    <input type="text" class="form-control" id="validationDefault01" required>
+                </div>
+                <div class="form-group ml-5 mr-5">
+                    <label for="validationDefault02">School/Organization</label>
+                    <input type="text" class="form-control" id="validationDefault02" required>
+                </div>
+                <div class="form-group ml-5 mr-5">
+                    <label for="inputTitle">Job Title</label>
+                    <input type="text" class="form-control" id="inputTitle">
+                </div>
+                <div class="form-group ml-5 mr-5">
+                    <label for="validationDefault03">Email</label>
+                    <input type="email" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="form-group row ml-4 mr-1">
+                    <div class="col-12 text-left">I'm interested in:</div>
+                </div>
+                <div class="form-group row ml-4">
+                    <div class="col-12">
+                        <div class="form-check custom-checkbox">
+                            <input class="form-check-input custom-control-input" type="checkbox" 
+                            id="Check1"> 
+                            <label class="form-check-label custom-control-label" for="Check1">
+                            Do-it-myself newsletter with free trial
+                            </label>
+                        </div>
+                    </div>               
+                </div>
+                <div class="form-group row ml-4 mr-1">
+                    <div class="col-12">
+                        <div class="form-check custom-checkbox">
+                            <input class="form-check-input custom-control-input" type="checkbox" id="Check2">
+                            <label class="form-check-label custom-control-label" for="Check2">
+                            You create my newsletter, contact me about custom quote
+                            </label>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="form-group row btn-row text-center">
-                <div class="col-12 pt-3">
-                    <button type="submit" class="btn btn-try mb-4">Submit</button>
+                <div class="form-group row btn-row text-center">
+                    <div class="col-12 pt-3">
+                        <button type="submit" class="btn btn-try mb-4">Submit</button>
+                    </div>
                 </div>
-            </div>
-        </form>
+            </form>
         </div>
     </section>
 

@@ -346,6 +346,9 @@ BuildYourOwnNewsletters.com administrative section.
 Icons were free and found on [FontAwesome] (https://fontawesome.com/) and 
 [pngtree] (https://pngtree.com/).
 
+Blockquote code used in Customer section: taken from Jamie 
+at https://codepen.io/jimmycow/pen/LmjVaz*/
+
 All copy was written by developer and reviewed and approved by client.
 
 ###Acknowedgements
