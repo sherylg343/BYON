@@ -196,8 +196,8 @@ live website preview
 Throughout development of the site, Chrome's Developer Tools were used to identify errors 
 and ensure the site was responsive on each of the five primary screen sizes.
 
-Additionally, I used the following tools to identify and resolve issues in the HTML and 
-CSS codes.
+Additionally, towards the end of the project, I used the following tools to identify and 
+resolve issues in the HTML and CSS codes.
 
 * [FREEFORMATTER.COM HTML Validator/Linter] (https://www.freeformatter.com/html-validator.
 html) Used to validate HTML.
@@ -214,8 +214,15 @@ loading times so used tinypng to reduce images sizes and improve loading speed.
 (https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhd
 lngaicolpmaakfmhplagoaln?hl=en-GB) - used to assist in problem solving 
 regarding margins, padding and alignment throughout design process
+
 * [stackoverflow](https://stackoverflow.com) - used many times to find answers to coding
 dilemmas
+
+* [autoprefixer]
+(https://autoprefixer.github.io/) - used to find prefixes so styling worked on all
+browsers; unfortunately it voided much of styling so I chose not to use recommended
+changes.
+
 
 ### Issues and Resolutions
 
@@ -245,8 +252,10 @@ issues with other browsers that I cannot resolve.
 background. To do this, I moved the hero image out of a row and made it the background image. 
 Then I kept the Callout text in a row and made the Jumbotron background transparent 
 (as Bootstrap default is white). Comments from the client and the Lighthouse report 
-indicated that the text was not readable enough with the transparent background, so it was 
-changed to a light gray.
+indicated that the text was not readable enough with the transparent background. To fix this
+I deleted the jumbotron and placed the header copy in a card in a row/column. I then made
+the container flex and positioned the card row at base of container and used a slightly
+transparent gray background.
 
 7. The form on the Contact page was not centering in screen sizes larger than mobile. 
 After experimenting with margins and padding I researched the issue. On stackoverflow 
@@ -262,8 +271,18 @@ It did not work to place all the code in CSS as it was not accepting the images 
 background-images within columns. So I put the images in the html and first tried the d-none
 and d-md-block class codes to control which one displayed. This did not work, so I tried
 the same code in CSS. It is working for the first newsletter sample, and for both in
-large screens, but doesn't work for the second sample in medium and smaller screens. If
-I can't correct it, I will revert to only using the mobile version.
+large screens, but doesn't work for the second sample in medium and smaller screens. Solution
+is to sway out the first sample that is working and only use the mobile version for the 
+second sample.
+
+9. The final issue was a problem with sizing of the logo in the navbar that appeared
+sporadically. At end of project, it was occuring in all sizes. The CSS styling code was not
+being recognized. I went back and checked all code in navagation section and removed some 
+excess classes that were in error. I tried various combinations of specifying the image in 
+CSS, finally determining that giving the image an id and specifying that worked better than
+using navbar-brand class. That change succeeded in styling the larger screen sizes but 
+not the smaller.
+
 
 ###Known Issues
 
@@ -272,4 +291,72 @@ I can't correct it, I will revert to only using the mobile version.
 2. The cover image does not appear when the website is loaded on an iPhone. It works
 when viewing it in Developer Tools as iPhone, but not on actual phone.
 
-3. Newsletter samples - TBD, see #8.
+3. The two-column Small College newsletter sample could not be successfully used (see #8
+above).
+
+4. Following HTML validation, I had 3 issues raised that I acknowledge but am not changing:
+* "|" in FontAwesome link code is viewed as an illegal character
+*  In Services1, card-header was seen as blank, but an icon is actually situated within header,
+but no text
+* the copyright symbol in the footer was seen as a "malformed byte sequence"
+
+---
+
+##Deployment
+
+To deploy this page to GitHub Pages from its [GitHub repository]
+(https://github.com/sherylg343/BYON), follow the process described below.
+
+1. Identify the menu items below the name of the repository and move to the far right and 
+click on **Settings**.
+2. Scroll down the screen until reach section labeled **GitHub Pages**.
+3. Below the sub-heading **Source** is a dropdown menu. Click on it and select 
+**master branch**.
+4. Once the master branch is selected, the page is automatically refreshed and the 
+website is deployed.
+5. Scroll down the page again to the sub-heading **GitHub Pages** and you will now find
+a message thatt the website is deployed and providing the web address. Copy the web address 
+to view the deployed website in your browser.
+
+###How to Run this Project Locally
+
+To run the project locally, make a clone of it from GitHub:
+
+1. Working from the GitHub repository page, find the green button on right labeled 
+**Clone or download** and click it to open a dropdown menu.
+2. Below the headline **Clone with HTTPS** is a web address, click on the button to the right
+of it to copy the link.
+3. In your local IDE open Git Bash.
+4. Change the current working directory to the location where you want to place the 
+cloned directory.
+5. Type ```git clone```, then paste the clone URL address copied in step 2 as follows:
+```console git clone https://github.com/sherylg343/BYON.git```
+6. Press enter to finish creating the local clone.
+
+---
+
+##Credits
+
+###Content
+The cover photo was free and downloaded from [pixabay] (https://pixabay.com).
+
+The sample newsletter images are screen shots of actual newsletters viewed from the 
+BuildYourOwnNewsletters.com administrative section.
+
+Icons were free and found on [FontAwesome] (https://fontawesome.com/) and 
+[pngtree] (https://pngtree.com/).
+
+All copy was written by developer and reviewed and approved by client.
+
+###Acknowedgements
+Many thanks to Code Institute students and alumni/channel leaders who provided assistance
+throughout the development phase, with special appreciation extended towards:
+
+* [Joel Douglas] - mentor
+* [Eventyret_mentor]
+* [Mark OBeirne]
+* [Orla Madden]
+
+##Disclaimer
+Please note the content and images on this website are for educational purposes only.
+

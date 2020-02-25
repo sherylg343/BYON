@@ -249,21 +249,25 @@ section {
 }
 
 
-.navbar a img {
+#navlogo {
+    display: inline-block;
     width: 90px;
     height: 30px;
     margin-top: 0px;
     margin-left: 4px;
     margin-right: 10px;
+    white-space: nowrap;
 }
 
 @media (min-width: 768px){ 
-    .navbar a img {
+    #navlogo {
+        display: inline-block;
         height: 70px;
         width: 210px;
         margin-top: 0px;
         margin-left: 10px;
         margin-right: 40px;
+        white-space: nowrap;
     }
 }
 
