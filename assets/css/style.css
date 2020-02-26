@@ -71,15 +71,15 @@ body {
     color: rgb(0,0,0);
 }
 
-.contact-sub {
+#contact-sub {
     color: #ffffff;
 }
 
-.form-font-color {
+#form-font-color {
     color: #ffffff;
 }
 
-.footer-text {
+#footer-text {
     font-size: 10px;
     color: #ffffff;
     padding-top: 20px;
@@ -110,7 +110,6 @@ section {
     padding-bottom: 20%;
 }
 
-
 #customers {
     background-color: rgba(168,168,168,0.3);
     padding-bottom: 15%;
@@ -125,7 +124,7 @@ section {
     background-color: rgb(0,0,0);
 }
 
-.callout {
+#callout {
     background-image: url('../images/baseball-cover2.jpg');
     width: 100%;
     height: 100vh;
@@ -141,20 +140,20 @@ section {
     position: relative;
 }
 
-.callout .card {
+#callout .card {
     background-color: rgba(192,192,192,0.9);
 }
 
-.callout .card-title {
+#callout .card-title {
     font-weight: 600;
 }
 
-.callout .card-subtitle {
+#callout .card-subtitle {
     font-weight: 600;
 }
 
 @media (min-width: 992px){
-    .callout .card-subtitle {
+    #callout .card-subtitle {
        padding-left: 10rem;
         padding-right: 10rem;
         padding-bottom: 1rem; 
@@ -163,7 +162,7 @@ section {
 
 
 /* Images */
-.contact img {
+#contact img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -173,7 +172,7 @@ section {
  }   
     
 @media (min-width: 768px){   
-    .contact img {
+    #contact img {
         width: 90px;
         height: 90px;
         border-radius: 50%;
@@ -236,7 +235,7 @@ section {
     font-size: 20px;
 }
 
-.social-links a i {
+#social-links a i {
     font-size: 40px; 
     line-height: 40px;
     color: rgb(0,0,0);
@@ -246,32 +245,32 @@ section {
     -o-transition: all 0.35s ease-in-out;
     padding-top: 10px;
     margin-left: 10px;
+    padding-bottom: 15px;
 }
 
 @media (min-width: 768px){ 
-    .social-links a i {
+    #social-links a i {
         padding-left: 10rem;
     }
 }
 
 @media (min-width: 992px) {
-    .social-links a i {
+    #social-links a i {
         padding-left: 0rem;
     }
 }
 
-.social-links a i:hover {
+#social-links a i:hover {
     background:  #FF3333;
 }
 
-.footer-text i {
+#footer-text i {
     font-size: 6px;
     color: #ffffff;
 }
 
-/
-
 /* Inputs */
+/*Code provided on stackoverflow by "knetsi" on January 22, 2018*/
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after{
     background-color: #FF3333;
 }
@@ -362,7 +361,7 @@ Code taken from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
     }
 }
 
-.cust-name p {
+#cust-name p {
     text-align: left;
     font-size: 16px;
     color: rgb(0,0,0);
@@ -370,20 +369,8 @@ Code taken from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
     margin-bottom: 0;
 }
 
-/* Form*/
-
-
-
 /* Footer */
-
 #footer-details {
     padding: 15%;
     background-color: #A8A8A8; 
 }
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-
-
