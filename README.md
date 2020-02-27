@@ -1,6 +1,6 @@
 # BuildYourOwnNewsletters.com
 <div style="text-align:center;">
-(https://github.com/sherylg343/BYON)
+( https://sherylg343.github.io/BYON/)
 </div>
 
 Current Situation: A basic website exists that provides little information and is not 
