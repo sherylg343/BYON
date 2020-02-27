@@ -1,4 +1,7 @@
-#BuildYourOwnNewsletters.com
+# BuildYourOwnNewsletters.com
+<div style="text-align:center;">
+(https://github.com/sherylg343/BYON)
+</div>
 
 Current Situation: A basic website exists that provides little information and is not 
 promoted at all. The home page is also the entry point for current users to access the 
@@ -27,7 +30,7 @@ priorities.
 
 ---
 
-##UX
+## UX
 The business owner gains most business through referrals. However, he intends to launch an 
 email marketing campaign to small privately-owned high schools in near future and wants a 
 website to use as a sales tool for not only this campaign but others and to support sales 
@@ -76,23 +79,23 @@ Additionally, the Frequently Asked Questions was delayed until users can be inte
 fully to determine most relevant topics. All other features were implemented.
 
 
-##Wireframe Mockups:
+## Wireframe Mockups:
 
 After meeting with the client regarding needs, the following mockups were designed,
 discussed with and approved by the client. The mockups were developed using Balsamiq 
 software (https://balsamiq.com/).
 
-###Desktop
+### Desktop
 <div style="text-align:center;">
 (. ./README-assets/BYONdesktop_only1.pdf)
 </div>
 
-###Tablet
+### Tablet
 <div style="text-align:center;">
 (. ./README-assets/BYONtablet_only1.pdf)
 </div>
 
-###Mobile
+### Mobile
 <div style="text-align:center;">
 (. ./README-assets/BYONmobile_only1.pdf)
 </div>
@@ -119,7 +122,7 @@ all formats.
 
 ---
 
-##Features
+## Features
 
 ### Callout
 
@@ -281,10 +284,11 @@ being recognized. I went back and checked all code in navagation section and rem
 excess classes that were in error. I tried various combinations of specifying the image in 
 CSS, finally determining that giving the image an id and specifying that worked better than
 using navbar-brand class. That change succeeded in styling the larger screen sizes but 
-not the smaller.
+not the smaller. The navbar styling was moved to top of CSS styling sheet and found it worked.
+Mentor helped me find missing bracket in CSS code that was causing code to not be recognized.
 
 
-###Known Issues
+### Known Issues
 
 1. Some of the styling does not appear in all browsers - see #5 above.
 
@@ -302,7 +306,7 @@ but no text
 
 ---
 
-##Deployment
+## Deployment
 
 To deploy this page to GitHub Pages from its [GitHub repository]
 (https://github.com/sherylg343/BYON), follow the process described below.
@@ -318,7 +322,7 @@ website is deployed.
 a message thatt the website is deployed and providing the web address. Copy the web address 
 to view the deployed website in your browser.
 
-###How to Run this Project Locally
+### How to Run this Project Locally
 
 To run the project locally, make a clone of it from GitHub:
 
@@ -335,9 +339,9 @@ cloned directory.
 
 ---
 
-##Credits
+## Credits
 
-###Content
+### Content
 The cover photo was free and downloaded from [pixabay] (https://pixabay.com).
 
 The sample newsletter images are screen shots of actual newsletters viewed from the 
@@ -354,7 +358,7 @@ Red checkbox provided by "knetsi" on [stackoverflow]
 
 All copy was written by developer and reviewed and approved by client.
 
-###Acknowedgements
+### Acknowedgements
 Many thanks to Code Institute students and alumni/channel leaders who provided assistance
 throughout the development phase, with special appreciation extended towards:
 
@@ -363,6 +367,6 @@ throughout the development phase, with special appreciation extended towards:
 * [Mark OBeirne]
 * [Orla Madden]
 
-##Disclaimer
+## Disclaimer
 Please note the content and images on this website are for educational purposes only.
 
