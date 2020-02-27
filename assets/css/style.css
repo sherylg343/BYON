@@ -135,14 +135,12 @@ section {
     background-repeat: no-repeat;
     background-size: cover;  
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
     position: relative;
 }
 
 #calloutContainer {
     position: absolute;
-    top: 0px;
+    top: 50vh;
 }
 
 #callout .card {
@@ -205,6 +203,7 @@ section {
     }
     #sample-image1-mobile {
         display: none;
+    }
 }
 
 #sample-image2 {
