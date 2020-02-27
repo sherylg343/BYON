@@ -140,6 +140,11 @@ section {
     position: relative;
 }
 
+#calloutContainer {
+    position: absolute;
+    top: 0px;
+}
+
 #callout .card {
     background-color: rgba(192,192,192,0.9);
 }
