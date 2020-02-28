@@ -70,7 +70,7 @@ much text
 Strategy Trade-off
 The attached list and grid was developed to determine the key features for the website.
 <div style="text-align:center;">
-(. ./README-assets/MilestoneProject_appendix_1_24_20.pdf)
+(/README-assets/MilestoneProject_appendix_1_24_20.pdf)
 </div>
 
 Regarding the list of features - all were considered important and viable. However, due to 
@@ -87,17 +87,17 @@ software (https://balsamiq.com/).
 
 ### Desktop
 <div style="text-align:center;">
-(../README-assets/BYONdesktop_only1.pdf)
+(/README-assets/BYONdesktop_only1.pdf)
 </div>
 
 ### Tablet
 <div style="text-align:center;">
-(../README-assets/BYONtablet_only1.pdf)
+(/README-assets/BYONtablet_only1.pdf)
 </div>
 
 ### Mobile
 <div style="text-align:center;">
-(../README-assets/BYONmobile_only1.pdf)
+(/README-assets/BYONmobile_only1.pdf)
 </div>
 
 During creation of the website, the following changes were made to improve the design 
