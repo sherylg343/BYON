@@ -304,6 +304,10 @@ above).
 but no text
 * the copyright symbol in the footer was seen as a "malformed byte sequence"
 
+5. In two Markdown Live Previews my internal links worked - but are not working in Github. I've
+consulted three different Markdown instruction documents and all provided the same formatting
+instructions. I cannot get the links to work, event trying different amounts of the branch.
+
 ---
 
 ## Deployment
