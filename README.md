@@ -70,7 +70,7 @@ much text
 Strategy Trade-off
 The attached list and grid was developed to determine the key features for the website.
 <div style="text-align:center;">
-[Strategy Trade-off Graph](../README-assets/MilestoneProject_appendix_1_24_20.pdf)
+[Strategy Trade-off Graph](../README-assets/MilestoneProject_appendix_1_24_20)
 </div>
 
 Regarding the list of features - all were considered important and viable. However, due to 
