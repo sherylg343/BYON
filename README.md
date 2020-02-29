@@ -306,8 +306,10 @@ but no text
 
 5. In two Markdown Live Previews my internal links worked - but are not working in Github. I've
 consulted three different Markdown instruction documents and all provided the same formatting
-instructions. I cannot get the links to work, event trying different amounts of the branch.
+instructions. I cannot get the links to work, event trying different amounts of the branch name.
 
+6. Project was posted on Slack on #peer-code-review for 48 hours requesting peer review, but 
+received no response. Therefore, no changes were made following peer review.
 ---
 
 ## Deployment
