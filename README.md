@@ -133,10 +133,10 @@ offering opportunity for a free trial.
 
 There are four parts to this section that describe:
 
-*1 - the benefits of newsletter communications
-*2 - details of the newsletter services
-*3 - display two sample newsletters
-*4 - two available service options from which to choose
+*1 - the benefits of newsletter communications. 
+*2 - details of the newsletter services. 
+*3 - display two sample newsletters. 
+*4 - two available service options from which to choose. 
 
 ### Customerss
 
