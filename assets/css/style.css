@@ -32,7 +32,7 @@ body {
     color: #ffffff;
 }
 
-#footer-text {
+.footer-text {
     font-size: 10px;
     color: #ffffff;
     padding-top: 20px;
@@ -365,7 +365,7 @@ Code taken from Jamie at https://codepen.io/jimmycow/pen/LmjVaz*/
     }
 }
 
-#cust-name p {
+.cust-name p {
     text-align: left;
     font-size: 16px;
     color: rgb(0,0,0);
